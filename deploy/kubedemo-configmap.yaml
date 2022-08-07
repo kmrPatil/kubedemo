@@ -1,0 +1,8 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: kubedemo-config
+  namespace: default
+data:
+  firstvar: First value
+  secondvar: Second Value
